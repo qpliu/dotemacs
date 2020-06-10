@@ -21,7 +21,7 @@
 ;(setenv "JAVA_HOME" "/home/pliu/java/j2sdk1.4.2_12")
 ;(setenv "JAVA_HOME" "/System/Library/Frameworks/JavaVM.framework/Versions/1.6/Home")
 (setenv "PAGER" "cat")
-(setenv "EDITOR" "/usr/bin/emacsclient")
+(setenv "EDITOR" "/Applications/Emacs.app/Contents/MacOS/bin/emacsclient")
 (server-start)
 
 ;(require 'ange-ftp)
@@ -72,9 +72,9 @@
 	'(mouse-color . "black") '(cursor-color . "orange")
 	'(vertical-scroll-bars . -1) '(horizontal-scroll-bars . -1)
 	'(menu-bar . nil) '(menu-bar-lines . 0))))
-(modify-face 'region nil "gray" nil 0 0 0)
+;(modify-face 'region nil "gray" nil 0 0 0)
 ;fix annoying crap added to newer versions
-;(menu-bar-mode 0)
+(menu-bar-mode 0)
 ;(tool-bar-mode 0)
 ;(blink-cursor-mode 0)
 
